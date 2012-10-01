@@ -1,0 +1,20 @@
+﻿@model MvcRssReader.ViewModels.AccountViewModel
+<script src="@Url.Content("~/Scripts/jquery.validate.js")" type="text/javascript"></script>
+<script src="@Url.Content("~/Scripts/jquery.validate.unobtrusive.js")" type="text/javascript"></script>
+@{
+    ViewBag.Title = "Login";
+}
+
+<div class="authorization">
+    <div class="authorization-inner">
+        @using (Html.BeginForm())
+        {
+            Html.RenderPartial("AccountDetails");
+            <div class="authorization-nav">
+                <input type="submit" value="Login" />
+                @Html.ActionLink("Create new account", "Registration", "Account")
+            </div>
+            @Html.ValidationSummary(true);
+        }
+    </div>
+</div>

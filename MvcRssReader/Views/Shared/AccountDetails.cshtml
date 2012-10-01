@@ -1,0 +1,13 @@
+﻿@model MvcRssReader.ViewModels.AccountViewModel
+<div class="user-information">
+    @Html.Label("Username", "Username:")
+    @Html.TextBox("Username")
+    @Html.ValidationMessageFor(m => m.Username)
+</div>
+<div class="user-information">
+    @Html.Label("Password", "Password:")
+    @Html.Password("Password")
+    @Html.ValidationMessageFor(m => m.Password)
+</div>
+
+

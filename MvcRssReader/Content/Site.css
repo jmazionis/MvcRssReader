@@ -1,0 +1,167 @@
+﻿body
+{
+    border: 0;
+    padding: 0;
+    margin: 0;
+    font-family: Segoe UI, Arial;
+    font-size: 14px;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #4C4F5C;
+}
+
+.authorization
+{
+    position: absolute;
+    width: 500px;
+    background-color: #232530;
+    top: 50%;
+    left: 50%;
+    height: 300px;
+    margin-top: -150px;
+    margin-left: -250px;
+    border: 3px solid #DE8B16;
+    border-radius: 10px;
+}
+
+.authorization-inner
+{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    left: 50%;
+    top: 50%;
+    background-color: #232530;
+    margin-left: -150px;
+    margin-top: -100px;
+}
+
+label
+{
+    display: block;
+    color: #F7B860;
+}
+
+.user-information input
+{
+    width: 260px;
+}
+
+.user-information
+{
+    display: block;
+    margin: 10px 20px 0px 20px;
+}
+
+.authorization-nav
+{
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 260px;
+}
+
+.authorization-nav input
+{
+    padding: 0px !important;
+    margin: 0px;
+    border: 0px;
+    height: 30px;
+    width: 80px;
+    background-color: #DE8B16;
+    color: #232530;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.authorization-nav input:hover
+{
+    background-color: #F7B860;
+}
+
+.authorization-nav a:hover
+{
+    color: #F7B860;
+}
+
+.authorization-nav a
+{
+    text-decoration: none;
+    margin-top: 8px;
+    float: right;
+    color: #DE8B16;
+}
+
+/* Styles for validation helpers
+-----------------------------------------------------------*/
+.field-validation-error
+{
+    color: #ff0000;
+    display: block;
+    font-weight: bold;
+}
+
+.field-validation-valid
+{
+    display: none;
+}
+
+.input-validation-error
+{
+    border: 1px solid #ff0000;
+    background-color: #ffeeee;
+}
+
+.validation-summary-errors
+{
+    font-weight: bold;
+    color: #ff0000;
+}
+
+.validation-summary-errors ul
+{
+    list-style-type: none;
+    margin-left: 20px;
+    padding-left: 0px;
+}
+
+.validation-summary-valid
+{
+    display: none;
+}
+
+/* Styles for main application section
+-----------------------------------------------------------*/
+.main-div
+{
+    position: absolute;
+    width: 1080px;
+    height: 700px;
+    background-color: red;
+    left: 50%;
+    margin-left: -540px;
+}
+
+.title-container
+{
+    width:1040px;
+    height:40px;
+    position: inherit;
+    top:20px;   
+    left:20px;
+    background-color: Black;  
+}
+
+.title-container p
+{
+    position:inherit;
+    line-height:0px;
+    padding:0px;
+    margin-top:6px;
+    margin-left:6px;
+    color:white;
+    font-weight:bold;
+    font-size:20px;
+}
